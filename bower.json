@@ -12,7 +12,5 @@
     "test",
     "tests"
   ],
-  "dependencies": {
-    "flocking": "~0.1.3"
-  }
+  "dependencies": {}
 }
