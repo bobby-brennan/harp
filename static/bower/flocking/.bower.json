@@ -1,0 +1,40 @@
+{
+  "name": "flocking",
+  "version": "0.1.3",
+  "main": "dist/flocking-all.min.js",
+  "ignore": [
+    "build-support",
+    "demos",
+    "docs",
+    "flocking",
+    "images",
+    "node_modules",
+    "nodejs",
+    "tests",
+    "third-party",
+    "ui",
+    ".jshintrc",
+    ".gitignore",
+    "favicon.ico",
+    "GPL-LICENSE.txt",
+    "index.html",
+    "Gruntfile.js",
+    "MIT-LICENSE.txt",
+    "package.json"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "requirejs": ">=2.1.14"
+  },
+  "homepage": "https://github.com/colinbdclark/flocking",
+  "_release": "0.1.3",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.1.3",
+    "commit": "a5a78a8f3766cacea987498c070e588e63988f4e"
+  },
+  "_source": "git://github.com/colinbdclark/flocking.git",
+  "_target": "~0.1.3",
+  "_originalSource": "flocking",
+  "_direct": true
+}
