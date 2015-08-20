@@ -1,5 +1,4 @@
 function playExample() {
-    console.log('playiing')
     var Synth = function(audiolet, frequency) {
         AudioletGroup.call(this, audiolet, 0, 1);
         // Basic wave
@@ -22,9 +21,7 @@ function playExample() {
         this.env.connect(this.envMulAdd);
         this.envMulAdd.connect(this.gain, 0, 1);
     };
-    console.log('extending')
     extend(Synth, AudioletGroup);
-    console.log('extended')
 
     var SchedulerApp = function() {
         this.audiolet = new Audiolet();
@@ -49,7 +46,11 @@ function playExample() {
         }
     };
 
-    console.log('new...')
     var app = new SchedulerApp();
-    console.log('played')
 };
+
+$(document).ready(function() {
+  $('body').keydown(function(e) {
+    playExample();
+  })
+})
