@@ -1,0 +1,19 @@
+svg {
+  width: 50%;
+}
+
+.key {
+  stroke: black;
+}
+
+.key.ebony {
+  fill: black;
+}
+
+.key.ivory {
+  fill: white;
+}
+
+.key.active {
+  fill: red;
+}

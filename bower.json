@@ -13,6 +13,7 @@
     "tests"
   ],
   "dependencies": {
-    "Audiolet": "*"
+    "Audiolet": "*",
+    "jquery": "~2.1.4"
   }
 }
