@@ -1,0 +1,13 @@
+{
+  "title": "Sine Generator",
+  "description": "Generates a simple sine wave",
+  "entry": "sine.js",
+  "inputs": [{
+    "name": "midi",
+    "type": "midi"
+  }],
+  "outputs": [{
+    "name": "audio",
+    "type": "audio"
+  }]
+}
